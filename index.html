@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css"> 
+  
+</head>
+
+<body>
+<div id="header">
+
+  <div class="container">
+      <nav>
+      <!-- <img src="images/webdesign4.jpeg" class="logo">   -->
+        <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <i class="fa-duotone fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="header-text">
+
+        <p>Hi, i am Ale Oluwatobi Emmanuel, <br>a Front-End Developer</p>
+        <h1>You're welcome to my <br>personal work portfolio</h1>
+
+      </div>
+
+  </div>
+
+</div>
+
+<!-- about section -->
+
+<div id="about">
+
+<div class="container">
+
+  <div class="row">
+
+  <div class="about-col-1">
+    <!-- <img src="images/webdesign1.jpeg" alt="images"> -->
+  </div>
+
+  <div class="about-col-2">
+    <h1 class="sub-title">About me</h1>
+    <p>I have a flair for crafting stunning and user-friendly web experiences. <br>My journey in web development is driven by a love for clean code, <br>creative design, and a commitment to making the digital world more <br>accessible and engaging.</p>
+                  <br>
+    Let's create beautiful and functional websites together!
+
+    <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+      <p class="tab-links" onclick="opentab('education') ">Education</p>
+    </div>
+
+    <div class="tab-contents active-tab" id="skills">
+
+      <ul>
+        <li> <span>Software Development</span> <br> front-end developer</li>
+        <li> <span>Web-Development</span> <br> Building websites and mobile Apps</li>
+        <li> <span>Technical writing</span> <br>Writing developer-focused articles</li>
+      </ul>
+
+    </div>
+
+
+    <div class="tab-contents" id="experience">
+
+      <ul>
+
+        <li> <span>August, 2023 - Current</span> <br> front-end developer intern at web3 bridge</li>
+        <!-- <li> <span>Web-Development</span> <br> Building websites and mobile Apps</li> -->
+        <!-- <li> <span>Technical writing</span> <br>Writing developer-focused articles</li> -->
+        
+      </ul>
+
+    </div>
+
+
+<div class="tab-contents" id="education">
+
+      <ul>
+        <li> <span>August, 2023</span> <br>Software development student at web3 bridge</li>
+        <li> <span>2015</span> <br> B.sc Adult Education</li> 
+        <!-- <li> <span>Technical writing</span> <br>Writing developer-focused articles</li> -->
+      </ul>
+
+    </div>
+
+
+
+  </div>
+  
+  </div>
+</div>
+
+</div>
+
+<!-- services -->
+<div id="services">
+<div class="container">
+  <h1 class="sub-title">My Services</h1>
+  <div class="services-list">
+
+    <div>
+      <h2>Software Development</h2>
+      <p>Building software, websites and mobile applications from the scratch</p>
+      <a href="#">Learn more</a>
+    </div>
+
+    <div>
+      <h2>Web design</h2>
+      <p>Creating beautiful, responsive and interactive designs for websites</p>
+      <a href="#">Learn more</a>
+    </div>
+
+    <div>
+      <h2>Technical writing</h2>
+      <p>Writing developer-focused articles for developers and the tech community in general</p>
+      <a href="#">Learn more</a>
+    </div>
+
+
+
+  </div>
+</div>
+
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+    <div class="work">
+        <img src="images/image6.png">
+        <div class="layer">
+          <h3>Tip calculator</h3>
+          <p>An app to equally calculate and distribute tips to employees</p>
+        </div>
+
+      </div>
+
+      <div class="work">
+        <img src="images/image10.png">
+        <div class="layer">
+          <h3>Huddle page</h3>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        </div>
+
+      </div>
+
+      <div class="work">
+        <img src="images/image9.png">
+        <div class="layer">
+          <h3>Sedan Autos</h3>
+          <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+      <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p>aleoluwatobiemmanuel@gmail.com</p>
+        <p>+2348145658405</p>
+      
+      </div>
+      <div class="contact-right"></div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright by Ale Oluwatobi Emmanuel</p>
+  </div>
+  </div>
+
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
